@@ -7,13 +7,14 @@
 - z → Scan result indicating the number of confirmed virus files
 ### Examples
 - 10-3-(2).zip → A ZIP file containing 10 files, 3 suspected as malicious, and 2 confirmed as viruses
-- 5-1-(0).exe → An EXE file containing 5 scanned files, 1 suspected as malicious, and 0 confirmed as a virus
+- 5-1-(0).zip → A ZIP file containing 5 files, 1 suspected as malicious, and 0 confirmed as a virus
 - 1-(0).exe → A single executable file, 1 suspected as malicious, and 0 confirmed as a virus
 - 1-(1).exe → A single executable file, 1 suspected as malicious, and 1 confirmed as a virus
 ## How to Test
 ⚠️ Important: Disable Real-Time Virus Protection
 Before testing, disable system or third-party real-time virus protection, as it may automatically delete infected files when unzipping. This can prevent you from retrieving file hashes.
 ### Test Steps:
+- Navigate to chrome://settings/security and enable Safe Browsing Standard Protection
 - Click the target file on the current page.
 - On the target file’s page, click "View raw" to trigger the file download.
 - Once the download is complete, review the results.
