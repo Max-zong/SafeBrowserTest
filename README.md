@@ -14,7 +14,7 @@
 ⚠️ Important: Disable Real-Time Virus Protection
 Before testing, disable system or third-party real-time virus protection, as it may automatically delete infected files when unzipping. This can prevent you from retrieving file hashes.
 ### Test Steps:
-- Navigate to chrome://settings/security and enable Safe Browsing Standard Protection
+- Navigate to chrome://settings/security and enable Safe Browsing Standard Protection.
 - Click the target file on the current page.
 - On the target file’s page, click "View raw" to trigger the file download.
 - Once the download is complete, review the results.
