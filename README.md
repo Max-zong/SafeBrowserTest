@@ -10,6 +10,9 @@
 - 5-1-(0).zip → A ZIP file containing 5 files, 1 suspected as malicious, and 0 confirmed as a virus
 - 1-(0).exe → A single executable file, 1 suspected as malicious, and 0 confirmed as a virus
 - 1-(1).exe → A single executable file, 1 suspected as malicious, and 1 confirmed as a virus
+## How to build
+⚠️ Important: https://github.com/redbrickmedia/shift-browser/wiki/How-to-set-download-protection-key
+This feature requires the Aviral API key to be set before building.
 ## How to Test
 ⚠️ Important: Disable Real-Time Virus Protection
 Before testing, disable system or third-party real-time virus protection, as it may automatically delete infected files when unzipping. This can prevent you from retrieving file hashes.
