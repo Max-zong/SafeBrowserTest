@@ -1,10 +1,11 @@
 # SafeBrowser Download Protection Feature Test
 
 ## File Name Rules
-### Format: xxx-yyy-(z).ext, 1-(z).ext
+### Format: xxx-yyy-(z).ext, 1-(z).ext, 1-blocked.ext
 - xxx → Total file count (if zipped, includes the number of archived files, or "1" for a single file)
 - yyy → Number of suspected malicious files (only executable binary or script files, e.g., .exe, .bat, .js, etc.)
 - z → Scan result indicating the number of confirmed virus files
+- blocked → the file meets certain risk conditions, it can be blocked immediately without cloud verification.
 ### Examples
 - 10-3-(2).zip → A ZIP file containing 10 files, 3 suspected as malicious, and 2 confirmed as viruses
 - 5-1-(0).zip → A ZIP file containing 5 files, 1 suspected as malicious, and 0 confirmed as a virus
