@@ -16,6 +16,8 @@ This feature requires the Aviral API key to be set before building.
 ## How to Test
 ⚠️ Important: Disable Real-Time Virus Protection
 Before testing, disable system or third-party real-time virus protection, as it may automatically delete infected files when unzipping. This can prevent you from retrieving file hashes.
+⚠️ Currently, encrypted ZIP files are not supported by download protection.
+⚠️ Please use chrome://downloads to verify scanning results. There are known bugs affecting the drop-download UI's display of malicious statuses; a fix has been implemented but is still under review.
 ### Test Steps:
 - Navigate to chrome://settings/security and enable Safe Browsing Standard Protection.
 - Click the target file on the current page.
